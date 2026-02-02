@@ -1,0 +1,14 @@
+# Virtual env
+.venv/
+__pycache__/
+
+# Dataset & audio
+dataset/
+*.mp3
+*.wav
+
+# Model files
+*.pkl
+
+# OS
+.DS_Store
