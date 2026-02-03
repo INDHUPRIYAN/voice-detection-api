@@ -1,14 +1,17 @@
-# Virtual env
-.venv/
+# Python
 __pycache__/
+*.pyc
+.venv/
+env/
 
-# Dataset & audio
+# Audio & datasets
 dataset/
 *.mp3
 *.wav
 
-# Model files
-*.pkl
+# Model temp files (keep only final ones)
+*.log
 
 # OS
 .DS_Store
+Thumbs.db
