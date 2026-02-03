@@ -1,17 +1,6 @@
-# Python
-__pycache__/
-*.pyc
-.venv/
-env/
-
-# Audio & datasets
 dataset/
 *.mp3
 *.wav
-
-# Model temp files (keep only final ones)
-*.log
-
-# OS
-.DS_Store
-Thumbs.db
+.venv/
+__pycache__/
+*.pyc
